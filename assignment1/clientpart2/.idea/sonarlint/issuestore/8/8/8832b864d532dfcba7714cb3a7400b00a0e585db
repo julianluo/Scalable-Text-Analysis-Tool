@@ -1,11 +1,0 @@
-
-ssquid:S00116"VRename this field "MAX_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û„ó®ıÿÿÿÿ
-=squid:S1170"!Make this final field static too.(Úıõüÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(½¾…éÿÿÿÿÿ
-N
-squid:S106"9Replace this use of System.out or System.err by a logger.(³ÇÎ
-=squid:S1170"!Make this final field static too.(û„ó®ıÿÿÿÿ
-{squid:S00116"^Rename this field "COMMAND_LINE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úıõüÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(·‹“´

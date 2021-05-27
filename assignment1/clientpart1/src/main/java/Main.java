@@ -35,7 +35,6 @@ public class Main {
       long wallTime = runConsumers(latch, numPostRequests, results, numThreads, listOfLines);
 
       printStatistics(results, wallTime);
-      writeFile(results);
     } catch (Exception e) {
       e.printStackTrace();
     }
@@ -73,20 +72,7 @@ public class Main {
     System.out.println("Number of successful posts: " + results.getSuccessfulPosts());
     System.out.println("Number of failed posts: " + results.getFailedPosts());
     System.out.println("Wall time: " + (wallTime / 1000) + "secs, " + (wallTime) + "ms");
-    System.out.println("Average response time: " + dataProcessor.getMean() + " ms");
-    System.out.println("Median response time: " + dataProcessor.getMedian() + " ms");
     System.out.println("Throughput: " + dataProcessor.getThroughput() + " requests/sec");
-    System.out.println("99th percentile: " + dataProcessor.getNintyninthPercentile() + " ms");
-    System.out.println("Max response time: " + dataProcessor.getMaxResponse() + " ms");
-  }
-
-  private static void writeFile(ReqStatistics results) throws IOException {
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("results.csv"));
-    bufferedWriter.write("start_time,request_type,latency,response_code\n");
-    for (String result : results.getFileLines()) {
-      bufferedWriter.write(result);
-    }
-    bufferedWriter.close();
   }
 
 }
