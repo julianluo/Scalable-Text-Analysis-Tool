@@ -1,0 +1,21 @@
+
+nsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Œèãìþÿÿÿÿ8õ’ƒš/
+nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(Ó•ƒùÿÿÿÿ8õ’ƒš/
+isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(·´¼ê8õ’ƒš/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü¯Ô–þÿÿÿÿ8ëñÄƒš/
+isquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(‘Û¦ž8õ’ƒš/
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Â–ýà8õ’ƒš/
+nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(«åµšüÿÿÿÿ8õ’ƒš/
+nsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(™ÂÇØûÿÿÿÿ8ÆÝÊØ™/
+nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¸³àºúÿÿÿÿ8õ’ƒš/
+osquid:UselessImportCheck
+"?Remove this unused import 'java.util.concurrent.BlockingQueue'.(÷ÙÑÿÿÿÿÿ8ŒðÝ„š/
+fsquid:S1854"CRemove this useless assignment to local variable "numPostRequests".(ç›ƒ×úÿÿÿÿ8¡ÈÎƒš/
+´%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'io.swagger.client.ApiException', as it cannot be thrown from method's body.(Ûéž÷ûÿÿÿÿ8ŒðÝ„š/
+nsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(Íœ××þÿÿÿÿ8ÆÝÊØ™/
+nsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(ñÙÅ¿ùÿÿÿÿ8õ’ƒš/
+Wsquid:S1481"4Remove this unused "numPostRequests" local variable.(ç›ƒ×úÿÿÿÿ8É¯Ùƒš/
+isquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(ÚÒÌŸ8ÆÝÊØ™/
+Tsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ð¥Å8ŒðÝ„š/
+isquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(‚ûŠš8ÆÝÊØ™/

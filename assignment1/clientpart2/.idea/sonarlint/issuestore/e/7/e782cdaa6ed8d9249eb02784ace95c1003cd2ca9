@@ -1,0 +1,14 @@
+
+osquid:UselessImportCheck"?Remove this unused import 'java.util.concurrent.BlockingQueue'.(÷ÙÑÿÿÿÿÿ8€ßİ„š/
+msquid:UselessImportCheck
+"=Remove this unused import 'io.swagger.client.model.TextLine'.(³Ì¸©ûÿÿÿÿ8Ï¼à‡š/
+Ksquid:S19052"(Remove this unnecessary cast to "Queue".(û˜ˆñûÿÿÿÿ8¬À…ˆš/
+Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¿Ü¿€š/
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ßÇ·µ8’«Öš/
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Á¤ıËüÿÿÿÿ8šõŞ„š/
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ßÇ·µ8¤äÖš/
+tsquid:UselessImportCheck"DRemove this unused import 'java.util.concurrent.ArrayBlockingQueue'.(ÜÙ×Ëúÿÿÿÿ8€ßİ„š/
+fsquid:UselessImportCheck	";Remove this unused import 'io.swagger.client.ApiException'.(í®ùû8ªÂß‡š/
+Dsquid:S1170"!Make this final field static too.(¯Ì¸Åşÿÿÿÿ8¤®Œƒš/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢ˆúÌÿÿÿÿÿ8ß¾‚ˆš/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢¢üÿÿÿÿ8È¨¤«š/
