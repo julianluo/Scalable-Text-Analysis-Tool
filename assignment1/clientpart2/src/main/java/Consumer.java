@@ -11,16 +11,17 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CountDownLatch;
 
 public class Consumer extends Thread {
-  private final String SERVER_PATH = "http://localhost:8080/servlet_war_exploded/servlet/";
+//  private final String SERVER_PATH = "http://localhost:8080/servlet_war_exploded/servlet/";
+  private final String SERVER_PATH = "http://35.169.82.198:8080/servlet_war/servlet/";
 
   private CountDownLatch latch;
-  private ReqStatistics results;
+  private PostStatistics results;
   private int numThreads;
   private int numPostRequests;
   private BlockingQueue<String> listOfLines;
   int counter = 0;
 
-  public Consumer(CountDownLatch latch, int numPostRequests, ReqStatistics results, int numThreads, BlockingQueue<String> listOfLines) {
+  public Consumer(CountDownLatch latch, int numPostRequests, PostStatistics results, int numThreads, BlockingQueue<String> listOfLines) {
     this.latch = latch;
     this.numPostRequests = numPostRequests;
     this.results = results;

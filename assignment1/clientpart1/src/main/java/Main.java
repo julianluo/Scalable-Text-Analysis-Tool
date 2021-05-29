@@ -11,9 +11,9 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
 
-//    int numThreads = 256;
-    String inputFile = "https://raw.githubusercontent.com/gortonator/bsds-6650/master/assignments-2021/bsds-summer-2021-testdata.txt";
-//    String inputFile = "https://www.w3.org/TR/PNG/iso_8859-1.txt";
+//    int numThreads = 128;
+//    String inputFile = "https://raw.githubusercontent.com/gortonator/bsds-6650/master/assignments-2021/bsds-summer-2021-testdata.txt";
+//    String inputFile = "https://raw.githubusercontent.com/gortonator/bsds-6650/master/assignments-2021/bsds-summer-2021-testdata-assignment2.txt";
 
     ParamValidater paramValidater = new ParamValidater();
     if (!paramValidater.validate(args)){
@@ -21,6 +21,7 @@ public class Main {
     }
     int numThreads = paramValidater.getNumThreads();
     System.out.println("Number of threads: " + numThreads);
+    String inputFile = paramValidater.getInputFile();
 
     Producer textReader = new Producer(numThreads, inputFile);
     BlockingQueue<String> listOfLines = textReader.run();
@@ -29,7 +30,7 @@ public class Main {
     int numPostRequests = listOfLines.size();
 
     CountDownLatch latch = new CountDownLatch(numThreads);
-    ReqStatistics results = new ReqStatistics();
+    PostStatistics results = new PostStatistics();
 
     try {
       long wallTime = runConsumers(latch, numPostRequests, results, numThreads, listOfLines);
@@ -41,7 +42,7 @@ public class Main {
 
   }
 
-  private static long runConsumers(CountDownLatch latch, int numPostRequests, ReqStatistics results,
+  private static long runConsumers(CountDownLatch latch, int numPostRequests, PostStatistics results,
                                    int numThreads, BlockingQueue<String> listOfLines) throws InterruptedException {
     Timestamp startTime = new Timestamp(System.currentTimeMillis());
     for(int i=0; i < numThreads; i++) {
@@ -66,7 +67,7 @@ public class Main {
     return responseTimes;
   }
 
-  private static void printStatistics(ReqStatistics results, long wallTime) {
+  private static void printStatistics(PostStatistics results, long wallTime) {
     ResultAnalyzer dataProcessor = new ResultAnalyzer(getResponseTimes(results.getFileLines()),
       wallTime / 1000, results.getSuccessfulPosts());
     System.out.println("Number of successful posts: " + results.getSuccessfulPosts());

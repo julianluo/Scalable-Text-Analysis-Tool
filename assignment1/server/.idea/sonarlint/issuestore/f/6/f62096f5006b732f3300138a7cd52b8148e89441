@@ -1,12 +1,12 @@
 
-Ksquid:S1989B"(Add a "try/catch" block for "getReader".(¾ğèÅûÿÿÿÿ8»˜ĞÙ™/
-Ksquid:S1989$"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8»˜ĞÙ™/
+Ksquid:S1989-"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8…™›Û™/
+Ksquid:S1481'"-Remove this unused "textLine" local variable.(Á‹õ8ËÔ€Û™/
+Ksquid:S1989?"(Add a "try/catch" block for "getReader".(¾ğèÅûÿÿÿÿ8»˜ĞÙ™/
+Ksquid:S1989!"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8»˜ĞÙ™/
 fsquid:UselessImportCheck";Remove this unused import 'io.swagger.client.ApiException'.(í®ùû8´ÕšÛ™/
-Zsquid:S1854*"<Remove this useless assignment to local variable "textLine".(Á‹õ8ËÔ€Û™/
-Ksquid:S1481*"-Remove this unused "textLine" local variable.(Á‹õ8ËÔ€Û™/
-Xsquid:S1161":Add the "@Override" annotation above this method signature(¾ĞÊŞ8»˜ĞÙ™/
-Fsquid:S19895"(Add a "try/catch" block for "getWriter".(•¡Š8»˜ĞÙ™/
-Xsquid:S11618":Add the "@Override" annotation above this method signature(µÕ”Ü8»˜ĞÙ™/
-Ksquid:S1989R"(Add a "try/catch" block for "getWriter".(ş¢Ø™øÿÿÿÿ8»˜ĞÙ™/
-Ksquid:S19890"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8…™›Û™/
-nsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ÿ‚ìÅûÿÿÿÿ8…£ëÛ™/
+Fsquid:S19892"(Add a "try/catch" block for "getWriter".(•¡Š8»˜ĞÙ™/
+Xsquid:S1161":Add the "@Override" annotation above this method signature(¾ĞÊŞ8»˜ĞÙ™/
+Xsquid:S11615":Add the "@Override" annotation above this method signature(µÕ”Ü8»˜ĞÙ™/
+Zsquid:S1854'"<Remove this useless assignment to local variable "textLine".(Á‹õ8ËÔ€Û™/
+Ksquid:S1989O"(Add a "try/catch" block for "getWriter".(ş¢Ø™øÿÿÿÿ8»˜ĞÙ™/
+nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ÿ‚ìÅûÿÿÿÿ8…£ëÛ™/

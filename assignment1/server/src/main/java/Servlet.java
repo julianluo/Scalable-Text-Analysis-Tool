@@ -17,9 +17,6 @@ import io.swagger.client.ApiException;
 import io.swagger.client.model.ErrMessage;
 import io.swagger.client.model.ResultVal;
 
-/**
- * The type servlet.
- */
 @WebServlet(name = "Servlet")
 public class Servlet extends HttpServlet {
 
@@ -44,12 +41,12 @@ public class Servlet extends HttpServlet {
     catch (Exception e) {
       ErrMessage errMessage = new ErrMessage();
       errMessage.setMessage("invalid post body");
-      res.setStatus(HttpServletResponse.SC_NOT_FOUND);
+      res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
       res.getWriter().write(new Gson().toJson(errMessage));
     }
     ResultVal resultVal = new ResultVal();
-    resultVal.setMessage(2);
-    res.setStatus(HttpServletResponse.SC_CREATED);
+    resultVal.setMessage(1);
+    res.setStatus(HttpServletResponse.SC_OK);
     res.getWriter().write(new Gson().toJson(resultVal));
   }
 
@@ -87,12 +84,6 @@ public class Servlet extends HttpServlet {
 
   }
 
-  /**
-   * Validate the received json text is correct or not.
-   *
-   * @param json the json
-   * @return the boolean
-   */
   protected boolean valTextLine(String json) {
     TextLine convertedObject = new Gson().fromJson(json, TextLine.class);
     return !convertedObject.getText().equals("");

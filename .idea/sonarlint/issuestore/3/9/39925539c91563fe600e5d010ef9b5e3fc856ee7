@@ -1,0 +1,5 @@
+
+_squid:UselessImportCheck";Remove this unused import 'io.swagger.client.ApiException'.(í®ùû
+Ssquid:S1854*"<Remove this useless assignment to local variable "textLine".(Á‹õ
+Dsquid:S1481*"-Remove this unused "textLine" local variable.(Á‹õ
+gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ÿ‚ìÅûÿÿÿÿ

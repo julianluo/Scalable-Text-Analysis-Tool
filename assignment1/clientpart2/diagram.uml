@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="170.996875" y="211.0">ResultAnalyzer</node>
+    <node x="443.996875" y="277.5">Producer</node>
+    <node x="36.99687499999999" y="277.5">Consumer</node>
+    <node x="667.996875" y="266.0">ParamValidater</node>
+    <node x="0.0" y="0.0">PostStatistics</node>
+    <node x="61.02187499999994" y="464.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Consumer">
+      <point x="-175.69999999999993" y="-69.0" />
+      <point x="136.321875" y="444.0" />
+      <point x="113.49687499999999" y="444.0" />
+      <point x="25.5" y="25.0" />
+    </edge>
+    <edge source="Main" target="ParamValidater">
+      <point x="175.70000000000005" y="-69.0" />
+      <point x="487.72187499999995" y="434.0" />
+      <point x="713.246875" y="434.0" />
+      <point x="-45.25" y="36.5" />
+    </edge>
+    <edge source="Main" target="ResultAnalyzer">
+      <point x="-25.100000000000023" y="-69.0" />
+      <point x="286.9218749999999" y="424.0" />
+      <point x="234.246875" y="424.0" />
+      <point x="-63.25" y="91.5" />
+    </edge>
+    <edge source="Consumer" target="PostStatistics">
+      <point x="25.5" y="-25.0" />
+      <point x="113.49687499999999" y="186.0" />
+      <point x="85.125" y="186.0" />
+      <point x="-28.375" y="80.5" />
+    </edge>
+    <edge source="Main" target="Producer">
+      <point x="75.30000000000007" y="-69.0" />
+      <point x="387.321875" y="414.0" />
+      <point x="494.996875" y="414.0" />
+      <point x="-51.0" y="25.0" />
+    </edge>
+    <edge source="Main" target="PostStatistics">
+      <point x="-125.49999999999994" y="-69.0" />
+      <point x="186.521875" y="444.0" />
+      <point x="149.496875" y="444.0" />
+      <point x="149.496875" y="186.0" />
+      <point x="141.875" y="186.0" />
+      <point x="28.375" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="409.0" y="266.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,12 @@
+
+Usquid:S4973H"9Use the "equals" method if value comparison was intended.(âïüžûÿÿÿÿ
+?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+8squid:S1170"!Make this final field static too.(—ò»æ
+nsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ò»æ
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(—ò»æ
+N
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¦÷èB
+Jsquid:S1068".Remove this unused "numThreads" private field.(©’ã¨üÿÿÿÿ
+bsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ÌÝ¢ç
+gsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ä‘ŽŠùÿÿÿÿ
+gsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(éº£Êûÿÿÿÿ
