@@ -60,8 +60,6 @@ l
 hassignment1/clientpart1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,3\c\3cc056a6338fc30e33e46b62ce445367e8442b53
 R
 "assignment1/clientpart1/.gitignore,6\6\662efc0a940f7900ecc5a01cf5b56b74556590f3
-X
-(assignment1/clientpart1/assignment1a.iml,1\7\1717d9b5e5f7ec880ac6ed9bb4bb0d43e0b9f1ab
 O
 assignment1/clientpart1/pom.xml,e\e\ee6d6821b99d1bf4bea5ab5b43573ba4d37a93d0
 c
@@ -76,3 +74,19 @@ i
 9assignment1/clientpart2/src/main/java/ResultAnalyzer.java,3\5\35a56b47f25a796ccd3c05543cd585f87832ce2c
 S
 #assignment1/clientpart2/results.csv,2\d\2ddd622b56c2e7471116f0b079f4f46d855f9b12
+i
+9assignment1/clientpart1/src/main/java/PostStatistics.java,8\9\89baf3a58cadb554cf1ef8316cfe3c559a1a535e
+i
+9assignment1/clientpart2/src/main/java/PostStatistics.java,b\1\b167a3758f37514e3547b8d691a3e679350df666
+N
+assignment1/clientpart2/32.csv,a\5\a5db80a9842b24e47a69e1a3fcd5c901fdd10346
+N
+assignment1/clientpart2/64.csv,1\e\1e492deaed579eb7005badd5fccd757e8ca9fd0d
+O
+assignment1/clientpart2/128.csv,8\6\86fda9a5f77ea02a8c3c86cb18d504688470a409
+O
+assignment1/clientpart2/256.csv,a\4\a4ed03df1a51b22687c0b59b6af2d61dba000a71
+b
+2assignment1/server/.idea/artifacts/servlet_war.xml,e\6\e64564de312d4c0f70eb2eca9beae734a94db206
+c
+3assignment1/server/.idea/artifacts/servlet_war2.xml,b\2\b238f8a110853e43def3cac135a01e84a707657f

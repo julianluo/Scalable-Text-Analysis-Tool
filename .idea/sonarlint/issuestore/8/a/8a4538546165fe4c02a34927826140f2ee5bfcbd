@@ -1,11 +1,11 @@
 
-=squid:S1170"!Make this final field static too.(Úıõüÿÿÿÿ
-=squid:S1170"!Make this final field static too.(ø˜Åıÿÿÿÿ
-{squid:S00116"^Rename this field "COMMAND_LINE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úıõüÿÿÿÿ
-ssquid:S00116"VRename this field "MAX_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜Åıÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‡¯âÖıÿÿÿÿ
+nsquid:S00116"VRename this field "MAX_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òñÄÑ
+vsquid:S00116"^Rename this field "COMMAND_LINE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¦æà
+8squid:S1170"!Make this final field static too.(òñÄÑ
+V
+squid:S106""9Replace this use of System.out or System.err by a logger.(Õ£· 8·£º³›/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞêÌ8·£º³›/
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(üËø×
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(èÓ Ùûÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(üËø×
+8squid:S1170"!Make this final field static too.(®¦æà

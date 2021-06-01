@@ -1,12 +1,13 @@
 
-gsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(éº£Êûÿÿÿÿ
-Usquid:S4973H"9Use the "equals" method if value comparison was intended.(âïüžûÿÿÿÿ
-Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(—ò»æ
+Usquid:S4973I"9Use the "equals" method if value comparison was intended.(âïüžûÿÿÿÿ
+gsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ä‘ŽŠùÿÿÿÿ
+gsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(éº£Êûÿÿÿÿ
+Jsquid:S1068".Remove this unused "numThreads" private field.(©’ã¨üÿÿÿÿ
+?squid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+bsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(ÌÝ¢ç
 N
-squid:S106>"9Replace this use of System.out or System.err by a logger.(¦÷èB
-bsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ÌÝ¢ç
-8squid:S1170"!Make this final field static too.(—ò»æ
-gsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ä‘ŽŠùÿÿÿÿ
-Jsquid:S1068".Remove this unused "numThreads" private field.(©’ã¨üÿÿÿÿ
-nsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ò»æ
-?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+squid:S106?"9Replace this use of System.out or System.err by a logger.(¦÷èB
+Dsquid:S1170"!Make this final field static too.(Òüø¦øÿÿÿÿ8œ‡Ê³›/
+zsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òüø¦øÿÿÿÿ8œ‡Ê³›/
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Òüø¦øÿÿÿÿ8œ‡Ê³›/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èÕ×Ÿøÿÿÿÿ8œ‡Ê³›/

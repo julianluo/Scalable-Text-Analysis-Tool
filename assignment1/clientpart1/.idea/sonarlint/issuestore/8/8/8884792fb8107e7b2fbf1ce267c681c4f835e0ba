@@ -1,14 +1,14 @@
 
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Òüø¦øÿÿÿÿ8í¡®›/
 Dsquid:S1170"!Make this final field static too.(Òüø¦øÿÿÿÿ8èàÃ¦›/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èÕ×Ÿøÿÿÿÿ8í¡®›/
+nsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ä‘Šùÿÿÿÿ8Ï‰æ¥›/
+\squid:S4973I"9Use the "equals" method if value comparison was intended.(âïüûÿÿÿÿ8‹¹­ªš/
+Qsquid:S1068".Remove this unused "numThreads" private field.(©’ã¨üÿÿÿÿ8×şÚ‡š/
 U
 squid:S106?"9Replace this use of System.out or System.err by a logger.(¦÷èB8òå¹š/
-Qsquid:S1068".Remove this unused "numThreads" private field.(©’ã¨üÿÿÿÿ8×şÚ‡š/
-zsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òüø¦øÿÿÿÿ8èàÃ¦›/
-Fsquid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰Óš/
-\squid:S4973I"9Use the "equals" method if value comparison was intended.(âïüûÿÿÿÿ8‹¹­ªš/
-nsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(éº£Êûÿÿÿÿ8ê·ñÙš/
 isquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Ìİ¢ç8å¦ëÓš/
 Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òå¹š/
-nsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ä‘Šùÿÿÿÿ8Ï‰æ¥›/
-dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Òüø¦øÿÿÿÿ8í¡®›/
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èÕ×Ÿøÿÿÿÿ8í¡®›/
+nsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(éº£Êûÿÿÿÿ8ê·ñÙš/
+zsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òüø¦øÿÿÿÿ8èàÃ¦›/
+Fsquid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰Óš/
