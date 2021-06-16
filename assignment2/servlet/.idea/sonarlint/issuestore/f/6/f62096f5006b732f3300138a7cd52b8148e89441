@@ -1,0 +1,38 @@
+
+ysquid:S001162"URename this field "PERSISTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±ÅŞşÿÿÿÿ8´ğÏë/
+Fsquid:S1989y"(Add a "try/catch" block for "checkNull".(’±¶½8»½ÎäŸ/
+Gsquid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8îÁœæŸ/
+Isquid:S1068+",Remove this unused "USERNAME" private field.(âÿ¹A8 ëŒŸ/
+Lsquid:S1989®"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8îÁœæŸ/
+Ksquid:S1989p"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8‚Í¯€/
+qsquid:S00116+"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÿ¹A8ÃµÜõœ/
+Ysquid:S1141£"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8îÁœæŸ/
+{squid:S2226'"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(´¤´‚ıÿÿÿÿ8‚Í¯€/
+Dsquid:S1170."!Make this final field static too.(â“Ã¹üÿÿÿÿ8çÄ¨Ä/
+Xsquid:S1161e":Add the "@Override" annotation above this method signature(¾ĞÊŞ8‚Í¯€/
+Gsquid:S1989Á"(Add a "try/catch" block for "getWriter".(•Ëà©8îÁœæŸ/
+wsquid:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(æûƒI8îÁœæŸ/
+Xsquid:S1161A":Add the "@Override" annotation above this method signature( Üó8ƒüúœ/
+Lsquid:S1989½"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8îÁœæŸ/
+osquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(¬İ’»ıÿÿÿÿ8ÿËÜîŸ/
+{squid:S2226*"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¥ÙÛşÿÿÿÿ8ÃµÜõœ/
+?squid:S1170/"!Make this final field static too.(›Ò‡¨8‚Í¯€/
+Jsquid:S1068,",Remove this unused "PASSWORD" private field.(“·«ß8 ëŒŸ/
+qsquid:S00116/"RRename this field "DURABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ò‡¨8‚Í¯€/
+Dsquid:S11702"!Make this final field static too.(ª±ÅŞşÿÿÿÿ8´ğÏë/
+|squid:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Õ ¹øÿÿÿÿ8‚Í¯€/
+{squid:S2226("XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞËúÙùÿÿÿÿ8ÃµÜõœ/
+Fsquid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚Í¯€/
+Ysquid:S1141‚"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Á†çÜŸ/
+Ysquid:S1161²":Add the "@Override" annotation above this method signature(µÕ”Ü8îÁœæŸ/
+usquid:S2226)"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç¿ÊY8ÃµÜõœ/
+Fsquid:S1068-"(Remove this unused "HOST" private field.(ÄààÕ8ı¸äŒŸ/
+nsquid:S00116-"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄààÕ8ƒüúœ/
+jsquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(Á‹²8çÄ¨Ä/
+Fsquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚Í¯€/
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8îÁœæŸ/
+vsquid:S2226&"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ñ©ÛÆ8çÄ¨Ä/
+rsquid:S00116,"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“·«ß8ÃµÜõœ/
+Xsquid:S1161X":Add the "@Override" annotation above this method signature(‚“¶î8‚Í¯€/
+tsquid:S1450&"VRemove the "factory" field and declare it as a local variable in the relevant methods.(ñ©ÛÆ8‚Í¯€/
+Fsquid:S1989v"(Add a "try/catch" block for "getReader".(íïúƒ8»½ÎäŸ/

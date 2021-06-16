@@ -1,0 +1,12 @@
+
+dsquid:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8òÃ„èŸ/
+\squid:S4973H"9Use the "equals" method if value comparison was intended.(âïüûÿÿÿÿ8÷Ê¢Ÿ/
+usquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èòïÌ8¯ä÷ÚŸ/
+?squid:S1170"!Make this final field static too.(èòïÌ8¯ä÷ÚŸ/
+U
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¦÷èB8÷Ê¢Ÿ/
+Fsquid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÃ„èŸ/
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(èòïÌ8ÕÕ¯îŸ/
+Fsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Ê¢Ÿ/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èÕ×Ÿøÿÿÿÿ8ÕÕ¯îŸ/
+Fsquid:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Ê¢Ÿ/

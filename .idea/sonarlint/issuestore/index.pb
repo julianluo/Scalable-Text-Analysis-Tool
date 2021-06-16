@@ -90,3 +90,5 @@ b
 2assignment1/server/.idea/artifacts/servlet_war.xml,e\6\e64564de312d4c0f70eb2eca9beae734a94db206
 c
 3assignment1/server/.idea/artifacts/servlet_war2.xml,b\2\b238f8a110853e43def3cac135a01e84a707657f
+X
+(assignment1/clientpart1/assignment1a.iml,1\7\1717d9b5e5f7ec880ac6ed9bb4bb0d43e0b9f1ab

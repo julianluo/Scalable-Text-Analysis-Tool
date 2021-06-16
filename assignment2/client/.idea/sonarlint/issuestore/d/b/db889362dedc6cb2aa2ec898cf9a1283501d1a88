@@ -1,0 +1,6 @@
+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿ±˜ñŸ/
+Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8¢ÚÙçŸ/
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‘ÂÔşÿÿÿÿ8úÕ—ñŸ/
+Fsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ƒœúæŸ/
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(¦êñùÿÿÿÿ8ÊºÉñŸ/

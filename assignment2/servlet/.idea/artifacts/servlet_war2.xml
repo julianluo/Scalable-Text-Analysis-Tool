@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet_war2</output-path>
+    <root id="archive" name="servlet_war.war">
+      <element id="artifact" artifact-name="servlet:war exploded" />
+      <element id="artifact" artifact-name="servlet:war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:5.12.0" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.8.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.12.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

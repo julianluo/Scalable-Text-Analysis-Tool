@@ -1,0 +1,24 @@
+
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(éñÛ«8¶€†¢Ÿ/
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ø”šÜ8ïİíŸ/
+osquid:S2095T"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(éÒşÿÿÿÿ8ïİíŸ/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆŸÉ©şÿÿÿÿ8ïİíŸ/
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïÿ´”şÿÿÿÿ8ïİíŸ/
+V
+squid:S106P"9Replace this use of System.out or System.err by a logger.(û Ã8ã…† Ÿ/
+[
+squid:S106J"9Replace this use of System.out or System.err by a logger.(“úöĞüÿÿÿÿ8¶€†¢Ÿ/
+V
+squid:S106L"9Replace this use of System.out or System.err by a logger.(¨‡æ8¶€†¢Ÿ/
+Fsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ïİíŸ/
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(«˜Ìœ8ïİíŸ/
+^squid:S2184H"ACast one of the operands of this division operation to a "float".(§·ªk8ïİíŸ/
+[
+squid:S106O"9Replace this use of System.out or System.err by a logger.(î®ĞÆùÿÿÿÿ8£ĞŠùš/
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(·÷ÔÖüÿÿÿÿ8º›Šùš/
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(µ’ÖÉùÿÿÿÿ8º›Šùš/
