@@ -47,7 +47,7 @@ public class Servlet extends HttpServlet {
   private final boolean DURABLE = false;
   private static final String QUEUE_NAME = "queue";
 //  Value: non-persistent (1) or persistent (2)
-  private final int PERSISTENT = 2;
+  private final int PERSISTENT = 1;
 
   public class ChannelFactory extends BasePooledObjectFactory<Channel> {
 
@@ -114,59 +114,59 @@ public class Servlet extends HttpServlet {
 
 
     try {
-          Gson gson = new Gson();
-          TextLine body = gson.fromJson(req.getReader(), TextLine.class);
-          String reqBody = body.getMessage();
+      Gson gson = new Gson();
+      TextLine body = gson.fromJson(req.getReader(), TextLine.class);
+      String reqBody = body.getMessage();
 
-    if (checkNull(reqBody, res, HttpServletResponse.SC_BAD_REQUEST, "Missing requestBody")) {
-      return;
-    }
-
-    Stream<String> stream = Stream.of(reqBody.split("\\s+")).parallel();
-    Map<String, Long> wordFreq = stream
-      .collect(Collectors.groupingBy(String::toString,Collectors.counting()));
-
-    Channel channel = null;
-    try {
-      int uniqueCount = countUniqueWords(reqBody);
-
-      channel = channelPool.borrowObject();
-      // System.out.println(("ACTIVE: " + channelPool.getNumActive() + " IDLE: " + channelPool.getNumIdle()));
-
-      for (Map.Entry<String, Long> entry : wordFreq.entrySet()) {
-        String key = entry.getKey();
-        Long count = entry.getValue();
-        Tuple tuple = new Tuple(key, count);
-
-        String item = gson.toJson(tuple);
-
-        AMQP.BasicProperties props = new AMQP.BasicProperties
-          .Builder()
-          .deliveryMode(PERSISTENT)
-          .build();
-
-//        System.out.println(item);
-        channel.basicPublish("", QUEUE_NAME,  props, item.getBytes(StandardCharsets.UTF_8));
+      if (checkNull(reqBody, res, HttpServletResponse.SC_BAD_REQUEST, "Missing requestBody")) {
+        return;
       }
 
-      res.setStatus(HttpServletResponse.SC_CREATED);
+      Stream<String> stream = Stream.of(reqBody.split("\\s+")).parallel();
+      Map<String, Long> wordFreq = stream
+        .collect(Collectors.groupingBy(String::toString,Collectors.counting()));
 
-      res.getWriter().write(new Gson().toJson(new ResultVal(uniqueCount)));
+      Channel channel = null;
+      try {
+        int uniqueCount = countUniqueWords(reqBody);
 
-    }
-    catch (Exception e) {
-      e.printStackTrace();
-      res.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
-      res.getWriter().write("Unable to publish to rabbitmq queue");
-    } finally {
-      if (channel != null) {
-        try {
-          channelPool.returnObject(channel);
-        } catch (Exception e) {
-          e.printStackTrace();
+        channel = channelPool.borrowObject();
+        // System.out.println(("ACTIVE: " + channelPool.getNumActive() + " IDLE: " + channelPool.getNumIdle()));
+
+        for (Map.Entry<String, Long> entry : wordFreq.entrySet()) {
+          String key = entry.getKey();
+          Long count = entry.getValue();
+          Tuple tuple = new Tuple(key, count);
+
+          String item = gson.toJson(tuple);
+
+          AMQP.BasicProperties props = new AMQP.BasicProperties
+            .Builder()
+            .deliveryMode(PERSISTENT)
+            .build();
+
+  //        System.out.println(item);
+          channel.basicPublish("", QUEUE_NAME,  props, item.getBytes(StandardCharsets.UTF_8));
+        }
+
+        res.setStatus(HttpServletResponse.SC_CREATED);
+
+        res.getWriter().write(new Gson().toJson(new ResultVal(uniqueCount)));
+
+      }
+      catch (Exception e) {
+        e.printStackTrace();
+        res.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+        res.getWriter().write("Unable to publish to rabbitmq queue");
+      } finally {
+        if (channel != null) {
+          try {
+            channelPool.returnObject(channel);
+          } catch (Exception e) {
+            e.printStackTrace();
+          }
         }
       }
-    }
     } catch (IllegalStateException | JsonSyntaxException e) {
       ErrMessage errMessage = new ErrMessage();
       errMessage.setMessage("invalid post body");
@@ -175,8 +175,7 @@ public class Servlet extends HttpServlet {
     }
   }
 
-  protected void doGet(HttpServletRequest req, HttpServletResponse res)
-    throws IOException {
+  protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
     res.setContentType("application/json");
     String urlPath = req.getPathInfo();
 
@@ -194,8 +193,7 @@ public class Servlet extends HttpServlet {
 
   }
 
-  private boolean checkNull(String content, HttpServletResponse res, int resCode, String message)
-      throws IOException {
+  private boolean checkNull(String content, HttpServletResponse res, int resCode, String message) throws IOException {
     if ((content == null || content.isEmpty())) {
       res.setStatus(resCode);
       res.getWriter().write(message);

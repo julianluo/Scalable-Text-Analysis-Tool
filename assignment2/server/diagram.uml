@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="151.24999999999997" y="379.0">Consumer</node>
+    <node x="537.0833333333333" y="201.5">Model.ResultVal</node>
+    <node x="386.08333333333326" y="179.0">Model.Tuple</node>
+    <node x="317.25" y="324.0">Servlet</node>
+    <node x="87.0" y="190.0">CommandLineParser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Servlet" target="Model.ResultVal">
+      <point x="118.66666666666669" y="-80.0" />
+      <point x="526.9166666666666" y="125.0" />
+      <point x="508.58333333333326" y="125.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="Servlet" target="Model.Tuple">
+      <point x="0.0" y="-80.0" />
+      <point x="43.666666666666686" y="47.5" />
+    </edge>
+    <edge source="Consumer" target="CommandLineParser">
+      <point x="0.0" y="-25.0" />
+      <point x="45.75" y="36.5" />
+    </edge>
+    <edge source="Consumer" target="Model.Tuple">
+      <point x="48.666666666666686" y="-25.0" />
+      <point x="185.91666666666666" y="115.0" />
+      <point x="320.91666666666663" y="115.0" />
+      <point x="-43.66666666666666" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="560.5" y="299.5" />
+  <SelectedNodes>
+    <node>Consumer</node>
+    <node>Model.ResultVal</node>
+    <node>Model.Tuple</node>
+    <node>Servlet</node>
+    <node>CommandLineParser</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

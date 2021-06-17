@@ -38,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -300,7 +300,7 @@
       <workItem from="1623419238272" duration="22041000" />
       <workItem from="1623527974506" duration="629000" />
       <workItem from="1623610066819" duration="3323000" />
-      <workItem from="1623671009936" duration="2644000" />
+      <workItem from="1623671009936" duration="11269000" />
     </task>
     <servers />
   </component>

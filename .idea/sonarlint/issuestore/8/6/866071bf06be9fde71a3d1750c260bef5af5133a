@@ -1,0 +1,18 @@
+
+Csquid:S1068",Remove this unused "PASSWORD" private field.(¦Äí
+asquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(äÃ…7
+bsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(µ’ê‡
+Lsquid:S1481:"0Remove this unused "ThreadIndex" local variable.(ªÕëºøÿÿÿÿ
+?squid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(Â–ıà
+nsquid:S00117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÕëºøÿÿÿÿ
+?squid:S1148X"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+rsquid:S1450"VRemove the "factory" field and declare it as a local variable in the relevant methods.(•Ú’™úÿÿÿÿ
+qsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğ—l
+T
+squid:S1067"9Replace this use of System.out or System.err by a logger.(Â† «ıÿÿÿÿ
+Usquid:S4719F"9Replace charset name argument with StandardCharsets.UTF_8(åıÙÆûÿÿÿÿ
+?squid:S1068"(Remove this unused "HOST" private field.(÷ô
+bsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(ÉØ¯ö
+Hsquid:S1068",Remove this unused "USERNAME" private field.(¢Óì­øÿÿÿÿ
+Dsquid:S1604;"(Make this anonymous inner class a lambda(äë¬±üÿÿÿÿ
