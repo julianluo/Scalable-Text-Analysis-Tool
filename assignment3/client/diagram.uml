@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="880.3333333333333" y="276.5">WallTime</node>
+    <node x="735.6319444444443" y="44.5">Globals</node>
+    <node x="0.0" y="287.5">Producer</node>
+    <node x="123.0" y="287.5">Consumer</node>
+    <node x="258.0" y="265.0">ParamValidater</node>
+    <node x="461.0" y="221.0">MetricsProcessor</node>
+    <node x="734.0" y="287.5">GetThread</node>
+    <node x="151.20833333333331" y="0.0">Statistics</node>
+    <node x="53.79861111111114" y="504.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Consumer">
+      <point x="-137.25000000000006" y="-69.0" />
+      <point x="191.0486111111111" y="484.0" />
+      <point x="200.25" y="484.0" />
+      <point x="25.75" y="25.0" />
+    </edge>
+    <edge source="Main" target="GetThread">
+      <point x="137.25" y="-69.0" />
+      <point x="465.54861111111114" y="454.0" />
+      <point x="789.0" y="454.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="Main" target="Statistics">
+      <point x="-58.82142857142861" y="-69.0" />
+      <point x="269.47718253968253" y="484.0" />
+      <point x="247.50000000000003" y="484.0" />
+      <point x="247.50000000000003" y="201.0" />
+      <point x="283.625" y="201.0" />
+      <point x="18.916666666666657" y="80.5" />
+    </edge>
+    <edge source="Consumer" target="Statistics">
+      <point x="25.75" y="-25.0" />
+      <point x="200.25" y="201.0" />
+      <point x="207.95833333333331" y="201.0" />
+      <point x="-56.75000000000001" y="80.5" />
+    </edge>
+    <edge source="Main" target="ParamValidater">
+      <point x="19.607142857142833" y="-69.0" />
+      <point x="347.905753968254" y="424.0" />
+      <point x="395.25" y="424.0" />
+      <point x="45.75" y="47.5" />
+    </edge>
+    <edge source="Main" target="MetricsProcessor">
+      <point x="98.03571428571422" y="-69.0" />
+      <point x="426.33432539682536" y="444.0" />
+      <point x="650.75" y="444.0" />
+      <point x="63.25" y="91.5" />
+    </edge>
+    <edge source="Main" target="Producer">
+      <point x="-254.89285714285722" y="-69.0" />
+      <point x="73.40575396825392" y="484.0" />
+      <point x="25.75" y="484.0" />
+      <point x="-25.75" y="25.0" />
+    </edge>
+    <edge source="Main" target="WallTime">
+      <point x="215.67857142857144" y="-69.0" />
+      <point x="543.9771825396826" y="474.0" />
+      <point x="912.3333333333333" y="474.0" />
+      <point x="-32.0" y="36.0" />
+    </edge>
+    <edge source="Main" target="Globals">
+      <point x="176.46428571428578" y="-69.0" />
+      <point x="504.7628968253969" y="464.0" />
+      <point x="869.8333333333333" y="464.0" />
+      <point x="869.8333333333333" y="201.0" />
+      <point x="904.3819444444443" y="201.0" />
+      <point x="56.25" y="36.0" />
+    </edge>
+    <edge source="GetThread" target="Statistics">
+      <point x="-36.66666666666666" y="-25.0" />
+      <point x="752.3333333333334" y="201.0" />
+      <point x="321.4583333333333" y="201.0" />
+      <point x="56.75" y="80.5" />
+    </edge>
+    <edge source="GetThread" target="Globals">
+      <point x="36.66666666666666" y="-25.0" />
+      <point x="825.6666666666666" y="181.0" />
+      <point x="791.8819444444443" y="181.0" />
+      <point x="-56.25" y="36.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

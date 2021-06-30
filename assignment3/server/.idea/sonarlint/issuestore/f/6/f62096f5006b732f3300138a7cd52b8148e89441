@@ -1,0 +1,49 @@
+
+rsquid:S00116."SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“·«ß8ÃµÜõœ/
+{squid:S2226*"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞËúÙùÿÿÿÿ8ÃµÜõœ/
+wsquid:S2293ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(æûƒI8÷ïÆÜ£/
+Fsquid:S1989z"(Add a "try/catch" block for "getReader".(íïúƒ8»½ÎäŸ/
+vsquid:S22266"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ğŒ©8µ˜¦½¢/
+Jsquid:S1068.",Remove this unused "PASSWORD" private field.(“·«ß8 ëŒŸ/
+Gsquid:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8îÁœæŸ/
+Gsquid:S1989Ü"(Add a "try/catch" block for "getWriter".(€Ë8Â¦ §¤/
+ysquid:S001164"URename this field "PERSISTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±ÅŞşÿÿÿÿ8´ğÏë/
+Lsquid:S1989¿"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8ä«½¢/
+|squid:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Õ ¹øÿÿÿÿ8‚Í¯€/
+Fsquid:S1989}"(Add a "try/catch" block for "checkNull".(’±¶½8»½ÎäŸ/
+Lsquid:S1989Ö"(Add a "try/catch" block for "getWriter".(À—òêùÿÿÿÿ8Â¦ §¤/
+{squid:S22267"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÜˆúÚûÿÿÿÿ8µ˜¦½¢/
+Xsquid:S1161F":Add the "@Override" annotation above this method signature( Üó8ƒüúœ/
+{squid:S2226,"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¥ÙÛşÿÿÿÿ8ÃµÜõœ/
+}squid:S001165"^Rename this field "WORDCOUNT_PARAMETER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èë“Ñ8µ˜¦½¢/
+Dsquid:S11700"!Make this final field static too.(â“Ã¹üÿÿÿÿ8çÄ¨Ä/
+Ksquid:S1989u"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8‚Í¯€/
+Gsquid:S1989â"(Add a "try/catch" block for "getWriter".(€Ë8÷ïÆÜ£/
+Ysquid:S1141†"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Á†çÜŸ/
+jsquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(ÛÖ¹Í8”´Ÿ¤/
+Xsquid:S1161j":Add the "@Override" annotation above this method signature(¾ĞÊŞ8‚Í¯€/
+Fsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚Í¯€/
+?squid:S11705"!Make this final field static too.(Èë“Ñ8µ˜¦½¢/
+Fsquid:S1148X"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚Í¯€/
+nsquid:S00116/"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄààÕ8ƒüúœ/
+^squid:S1161¶":Add the "@Override" annotation above this method signature(ÖÊš©ÿÿÿÿÿ8îÁœæŸ/
+qsquid:S001161"RRename this field "DURABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ò‡¨8‚Í¯€/
+Fsquid:S1068/"(Remove this unused "HOST" private field.(ÄààÕ8ı¸äŒŸ/
+osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(¬İ’»ıÿÿÿÿ8ÿËÜîŸ/
+vsquid:S2226("XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ñ©ÛÆ8çÄ¨Ä/
+tsquid:S1450("VRemove the "factory" field and declare it as a local variable in the relevant methods.(ñ©ÛÆ8‚Í¯€/
+asquid:HiddenFieldChecky"8Rename "gson" which hides the field declared at line 54.(şëŒ8µ˜¦½¢/
+Dsquid:S11704"!Make this final field static too.(ª±ÅŞşÿÿÿÿ8´ğÏë/
+{squid:S2226)"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(´¤´‚ıÿÿÿÿ8‚Í¯€/
+Ysquid:S1141¦"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8îÁœæŸ/
+jsquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(Á‹²8çÄ¨Ä/
+qsquid:S00116-"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÿ¹A8ÃµÜõœ/
+tsquid:S1192m"QDefine a constant instead of duplicating this literal "application/json" 3 times.(è¡áüÿÿÿÿ8Â¦ §¤/
+?squid:S11701"!Make this final field static too.(›Ò‡¨8‚Í¯€/
+usquid:S2226+"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç¿ÊY8ÃµÜõœ/
+Gsquid:S1148¡"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8îÁœæŸ/
+Isquid:S1068-",Remove this unused "USERNAME" private field.(âÿ¹A8 ëŒŸ/
+~squid:S14507"[Remove the "frequencyDao" field and declare it as a local variable in the relevant methods.(ÜˆúÚûÿÿÿÿ8Ì¸Àø£/
+Xsquid:S1161]":Add the "@Override" annotation above this method signature(‚“¶î8‚Í¯€/
+`squid:S1126ü"AReplace this if-then-else statement by a single return statement.(óğ­ß8¥–Ïİ£/
+Lsquid:S1989±"(Add a "try/catch" block for "getWriter".(ûñÄ¸şÿÿÿÿ8îÁœæŸ/

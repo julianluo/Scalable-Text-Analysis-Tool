@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="583.125" y="462.0">Consumer</node>
+    <node x="0.0" y="210.0">Model.Message</node>
+    <node x="-367.5" y="3.0">DAO.DBConnection</node>
+    <node x="131.0" y="210.0">Model.ResultVal</node>
+    <node x="76.29166666666674" y="396.0">Servlet</node>
+    <node x="268.0" y="187.5">Model.Tuple</node>
+    <node x="710.0" y="198.5">CommandLineParser</node>
+    <node x="419.0" y="144.0">DAO.FrequencyDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Servlet" target="Model.ResultVal">
+      <point x="-66.75" y="-91.0" />
+      <point x="187.54166666666674" y="376.0" />
+      <point x="160.25" y="376.0" />
+      <point x="-29.25" y="25.0" />
+    </edge>
+    <edge source="Servlet" target="Model.Message">
+      <point x="-155.75" y="-91.0" />
+      <point x="98.54166666666674" y="376.0" />
+      <point x="27.75" y="376.0" />
+      <point x="-27.75" y="25.0" />
+    </edge>
+    <edge source="Servlet" target="Model.Tuple">
+      <point x="22.25" y="-91.0" />
+      <point x="276.54166666666674" y="376.0" />
+      <point x="289.83333333333337" y="376.0" />
+      <point x="-43.66666666666663" y="47.5" />
+    </edge>
+    <edge source="Servlet" target="DAO.FrequencyDao">
+      <point x="155.75" y="-91.0" />
+      <point x="410.04166666666674" y="376.0" />
+      <point x="520.625" y="376.0" />
+      <point x="-33.875" y="91.0" />
+    </edge>
+    <edge source="Consumer" target="CommandLineParser">
+      <point x="58.39999999999998" y="-25.0" />
+      <point x="714.525" y="376.0" />
+      <point x="847.25" y="376.0" />
+      <point x="45.75" y="36.5" />
+    </edge>
+    <edge source="DAO.FrequencyDao" target="DAO.DBConnection">
+      <point x="0.0" y="-91.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="Consumer" target="Model.Tuple">
+      <point x="-58.400000000000006" y="-25.0" />
+      <point x="597.725" y="356.0" />
+      <point x="377.16666666666663" y="356.0" />
+      <point x="43.66666666666663" y="47.5" />
+    </edge>
+    <edge source="Consumer" target="DAO.FrequencyDao">
+      <point x="-29.19999999999999" y="-25.0" />
+      <point x="626.9250000000001" y="346.0" />
+      <point x="588.375" y="346.0" />
+      <point x="33.875" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.0" y="267.5" />
+  <SelectedNodes>
+    <node>DAO.DBConnection</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

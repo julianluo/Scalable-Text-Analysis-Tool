@@ -1,0 +1,5 @@
+
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÕâŒÛ8£„ Ú¢/
+Œ"squid:ClassVariableVisibilityCheck"WMake runVariable a static final constant or non-public and provide accessors if needed.(›×’¾8£„ Ú¢/
+Osquid:S1444"1Make this "public static runVariable" field final(›×’¾8£„ Ú¢/
+;squid:S1118"Hide this public constructor.(ÕâŒÛ8£„ Ú¢/

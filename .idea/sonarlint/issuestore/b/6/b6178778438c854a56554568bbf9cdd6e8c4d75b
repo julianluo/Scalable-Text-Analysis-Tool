@@ -1,23 +1,23 @@
 
-8squid:S1170/"!Make this final field static too.(›Ò‡¨
-Rsquid:S1141£"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-@squid:S1148ž"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-msquid:S1450&"VRemove the "factory" field and declare it as a local variable in the relevant methods.(ñ©ÛÆ
-Rsquid:S1141‚"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-?squid:S1148`"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-usquid:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Õ ¹øÿÿÿÿ
-?squid:S1068-"(Remove this unused "HOST" private field.(ÄààÕ
-jsquid:S00116/"RRename this field "DURABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ò‡¨
-@squid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-=squid:S11702"!Make this final field static too.(º¦ÌÎùÿÿÿÿ
-jsquid:S00116+"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÿ¹A
-gsquid:S00116-"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄààÕ
-rsquid:S001162"URename this field "PERSISTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¦ÌÎùÿÿÿÿ
-Csquid:S1068,",Remove this unused "PASSWORD" private field.(“·«ß
-?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 =squid:S1170."!Make this final field static too.(â“Ã¹üÿÿÿÿ
-csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(Á‹²
-ksquid:S00116,"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“·«ß
-psquid:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(æûƒI
-Bsquid:S1068+",Remove this unused "USERNAME" private field.(âÿ¹A
+8squid:S1170/"!Make this final field static too.(›Ò‡¨
+@squid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 hsquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(¬Ý’»ýÿÿÿÿ
+jsquid:S00116/"RRename this field "DURABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ò‡¨
+gsquid:S00116-"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄààÕ
+=squid:S11702"!Make this final field static too.(ª±ÅÞþÿÿÿÿ
+csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(Á‹²
+rsquid:S001162"URename this field "PERSISTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±ÅÞþÿÿÿÿ
+?squid:S1148`"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+msquid:S1450&"VRemove the "factory" field and declare it as a local variable in the relevant methods.(ñ©ÛÆ
+ksquid:S00116,"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“·«ß
+usquid:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Õ ¹øÿÿÿÿ
+Rsquid:S1141£"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Rsquid:S1141‚"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+@squid:S1148ž"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1068-"(Remove this unused "HOST" private field.(ÄààÕ
+jsquid:S00116+"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÿ¹A
+psquid:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(æûƒI
+Bsquid:S1068+",Remove this unused "USERNAME" private field.(âÿ¹A
+Csquid:S1068,",Remove this unused "PASSWORD" private field.(“·«ß

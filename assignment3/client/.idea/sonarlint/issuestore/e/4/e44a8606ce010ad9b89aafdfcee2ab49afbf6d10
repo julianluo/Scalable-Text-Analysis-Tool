@@ -1,0 +1,36 @@
+
+V
+squid:S106g"9Replace this use of System.out or System.err by a logger.(ˆËö‰8ãä±¤/
+Wsquid:S4973]"9Use the "equals" method if value comparison was intended.(––¬ˆ8éÃŠ±¤/
+V
+squid:S106b"9Replace this use of System.out or System.err by a logger.(´Á¼ò8Õ¼»¡/
+V
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ºÉãâ8Õ¼»¡/
+Ysquid:UnusedPrivateMethodk".Remove this unused private "writeFile" method.(ñëÑ*8¡»‰€¤/
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ÆŸÉ©şÿÿÿÿ8‘Õœµ¤/
+V
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(«”­8½æ±¤/
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ø”šÜ8ïİíŸ/
+isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(š˜ÜÊ8³Áø£/
+\squid:S4973d"9Use the "equals" method if value comparison was intended.(µ£î—üÿÿÿÿ8“±¤/
+[
+squid:S106e"9Replace this use of System.out or System.err by a logger.(œä¢Ìùÿÿÿÿ8ãä±¤/
+V
+squid:S106\"9Replace this use of System.out or System.err by a logger.(õ™Ç8öñ±¤/
+^squid:S2184Y"ACast one of the operands of this division operation to a "float".(§·ªk8Ù±šµ¤/
+V
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ˆËö‰8Õ¼»¡/
+Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ïİíŸ/
+osquid:S2095l"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(éÒşÿÿÿÿ8ïİíŸ/
+V
+squid:S106^"9Replace this use of System.out or System.err by a logger.(éñÛ«8Ä—¼á£/
+[
+squid:S106`"9Replace this use of System.out or System.err by a logger.(œä¢Ìùÿÿÿÿ8Õ¼»¡/
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïÿ´”şÿÿÿÿ8ïİíŸ/
+U
+squid:S106["9Replace this use of System.out or System.err by a logger.(„ØZ8¥Á±¤/
+U
+squid:S106a"9Replace this use of System.out or System.err by a logger.(ƒËÄw8Õ¼»¡/
+U
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ƒËÄw8ãä±¤/

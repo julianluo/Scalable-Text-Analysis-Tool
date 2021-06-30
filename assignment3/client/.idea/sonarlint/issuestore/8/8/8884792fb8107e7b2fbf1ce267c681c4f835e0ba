@@ -1,0 +1,14 @@
+
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èÕ×Ÿøÿÿÿÿ8šÌ¸ı¤/
+Fsquid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÃ„èŸ/
+Fsquid:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Ê¢Ÿ/
+dsquid:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8òÃ„èŸ/
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(®Ú‚ 8ôİ·ı¤/
+Fsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Ê¢Ÿ/
+U
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¦÷èB8÷Ê¢Ÿ/
+\squid:S4973H"9Use the "equals" method if value comparison was intended.(âïüûÿÿÿÿ8÷Ê¢Ÿ/
+Dsquid:S1170"!Make this final field static too.(ÿæ£ıÿÿÿÿ8Ëê¸ı¤/
+zsquid:S00116"VRename this field "SERVER_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿæ£ıÿÿÿÿ8Ëê¸ı¤/
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ÿæ£ıÿÿÿÿ8Ëê¸ı¤/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùŒãüøÿÿÿÿ8Ëê¸ı¤/

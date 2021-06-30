@@ -1,0 +1,5 @@
+
+lsquid:S2095"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(‡ÕÂıÿÿÿÿ8 ä¡/
+]squid:S1118":Add a private constructor to hide the implicit public one.(¾ëÃÿúÿÿÿÿ8Ğ¯ì‰¢/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³¬ÀÀıÿÿÿÿ8İ İã¡/
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä”òª8ñÙîê¡/

@@ -1,0 +1,21 @@
+
+Psquid:S1068"-Remove this unused "frequency" private field.(‰²¿êþÿÿÿÿ8¢±´¹¢/
+Ksquid:S1604="(Make this anonymous inner class a lambda(äë¬±üÿÿÿÿ8Ïç¼ý¡/
+isquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(µ’ê‡8À¼–¹¢/
+usquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÕëºøÿÿÿÿ8Ïç¼ý¡/
+Jsquid:S1068",Remove this unused "PASSWORD" private field.(¦Äí8¨ÄòŒŸ/
+Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ïç¼ý¡/
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Â† «ýÿÿÿÿ8Ïç¼ý¡/
+hsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(äÃ…78Ïç¼ý¡/
+nsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(ûž³Ðüÿÿÿÿ8€ù£°¤/
+Fsquid:S1148a"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÛÐ©‚¢/
+ysquid:S1450"VRemove the "factory" field and declare it as a local variable in the relevant methods.(•Ú’™úÿÿÿÿ8Ïç¼ý¡/
+Fsquid:S1068"(Remove this unused "HOST" private field.(÷žžô8Ïç¼ý¡/
+hsquid:S2095A"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8Ïç¼ý¡/
+\squid:S4719H"9Replace charset name argument with StandardCharsets.UTF_8(åýÙÆûÿÿÿÿ8Ïç¼ý¡/
+xsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ð—l8Ïç¼ý¡/
+nsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(²¥³ºúÿÿÿÿ8¢±´¹¢/
+Ssquid:S1481<"0Remove this unused "ThreadIndex" local variable.(ªÕëºøÿÿÿÿ8À¼–¹¢/
+Osquid:S1068",Remove this unused "USERNAME" private field.(¢Óì­øÿÿÿÿ8–ø“Ÿ/
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Â–ýà8Ïç¼ý¡/
